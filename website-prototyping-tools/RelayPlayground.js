@@ -29,7 +29,7 @@ import {transform} from 'babel-core';
 import {introspectionQuery} from 'graphql/utilities';
 import {graphql} from 'graphql';
 
-import PropTypes from 'prop-types';
+const {PropTypes} = React;
 
 const CODE_EDITOR_OPTIONS = {
   extraKeys: {

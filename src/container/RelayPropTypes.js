@@ -16,7 +16,7 @@ const isRelayContainer = require('isRelayContainer');
 const isRelayEnvironment = require('isRelayEnvironment');
 const sprintf = require('sprintf');
 
-import PropTypes from 'prop-types';
+const {PropTypes} = require('React');
 
 const RelayPropTypes = {
   Container(props: Object, propName: string, componentName: string): ?Error {

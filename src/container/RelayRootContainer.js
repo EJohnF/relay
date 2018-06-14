@@ -42,7 +42,7 @@ type RootContainerProps = {
   route: RelayQueryConfigInterface,
 };
 
-import PropTypes from 'prop-types';
+const {PropTypes} = React;
 
 /**
  * @public
